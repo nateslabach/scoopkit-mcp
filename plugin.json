@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "scoopkit",
+  "version": "1.0.0",
+  "description": "AI-industry news as structured events: each story once, classified against a published 10-category, 57-subcategory taxonomy, with sources and a correction history. Hosted MCP server; no API key needed to start.",
+  "homepage": "https://scoopkit.dev",
+  "repository": "https://github.com/nateslabach/scoopkit-mcp",
+  "license": "MIT",
+  "keywords": ["ai-news", "news-api", "mcp", "events", "agents"]
+}

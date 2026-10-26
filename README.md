@@ -6,7 +6,7 @@ AI-industry news for agents. When a model ships, forty outlets write about it; S
 the story once, as a structured event classified against a published taxonomy (10 categories,
 57 subcategories), with its sources and a `correction_history` showing how the story changed.
 
-This repo holds setup docs only. The server is hosted at **`https://api.scoopkit.dev/mcp`**
+This repo holds setup docs and an [Agent Plugins](https://agent-plugins.org) manifest (`plugin.json`, `mcp.json`), no server code. The server is hosted at **`https://api.scoopkit.dev/mcp`**
 (Streamable HTTP). There is nothing to install or run.
 
 **No API key needed to start.** Without a key you get the free tier: the last 45 days of events,
