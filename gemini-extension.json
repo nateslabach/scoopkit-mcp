@@ -1,0 +1,10 @@
+{
+  "name": "scoopkit",
+  "version": "1.0.0",
+  "description": "AI-industry news as structured events: each story once, classified against a published 10-category, 57-subcategory taxonomy, with sources. Hosted MCP server, no API key needed to start.",
+  "mcpServers": {
+    "scoopkit": {
+      "httpUrl": "https://api.scoopkit.dev/mcp"
+    }
+  }
+}

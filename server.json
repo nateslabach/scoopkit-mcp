@@ -1,0 +1,33 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "dev.scoopkit/mcp",
+  "title": "Scoopkit",
+  "description": "AI-industry news for agents: each story once, as a sourced event in a 10/57 taxonomy. No key needed.",
+  "version": "1.0.1",
+  "websiteUrl": "https://scoopkit.dev",
+  "repository": {
+    "url": "https://github.com/nateslabach/scoopkit-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://scoopkit.dev/marks/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.scoopkit.dev/mcp",
+      "headers": [
+        {
+          "name": "X-Api-Key",
+          "description": "Optional. Without a key you get the free tier (100 calls/day). Free key at https://scoopkit.dev/start; a Pro key adds search.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
