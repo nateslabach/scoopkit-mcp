@@ -2,6 +2,11 @@
 
 # Scoopkit MCP server
 
+[![MCP Registry](https://img.shields.io/badge/MCP_Registry-dev.scoopkit%2Fmcp-2ef2a0)](https://registry.modelcontextprotocol.io/v0/servers?search=dev.scoopkit/mcp)
+[![Endpoint](https://img.shields.io/badge/endpoint-api.scoopkit.dev%2Fmcp-2ef2a0)](https://api.scoopkit.dev/.well-known/mcp)
+[![Free tier](https://img.shields.io/badge/free_tier-no_key_needed-2ef2a0)](https://api.scoopkit.dev/v1/demo/events)
+[![Glama](https://glama.ai/mcp/connectors/dev.scoopkit/mcp/badges/score.svg)](https://glama.ai/mcp/connectors/dev.scoopkit/mcp)
+
 AI-industry news for agents. When a model ships, forty outlets write about it; Scoopkit returns
 the story once, as a structured event classified against a published taxonomy (10 categories,
 57 subcategories), with its sources and a `correction_history` showing how the story changed.
@@ -13,6 +18,9 @@ This repo holds setup docs and an [Agent Plugins](https://agent-plugins.org) man
 100 calls a day. A free key (same limits, tied to you) comes from
 [scoopkit.dev/start](https://scoopkit.dev/start) or the `request_magic_link` tool. A Pro key adds
 semantic search, a 12-month archive and 10,000 calls a day.
+
+**Try it without an MCP client:** [api.scoopkit.dev/v1/demo/events](https://api.scoopkit.dev/v1/demo/events)
+returns the latest events as JSON, no key, so you can see the shape before connecting anything.
 
 ## Tools
 
